@@ -4,8 +4,6 @@ Geçit, kurumsal firmaların hassas verilerini (PII - Kişisel Tanımlanabilir B
 
 Yapay zeka modellerine giden veriyi maskeler, LLM'in maskeli cevaplarını yakalar ve son kullanıcıya orijinal verilerle restore edilmiş kusursuz bir metin sunar.
 
-![Geçit Banner](https://via.placeholder.com/1000x300.png?text=Ge%C3%A7it+-+Enterprise+AI+Privacy+Gateway) *(Buraya kendi aldığın arayüz ekran görüntüsünü ekleyebilirsin)*
-
 ## ✨ Temel Özellikler
 
 * **🔄 Çift Yönlü Restorasyon (De-anonymization):** Veriler (İsim, TC, IBAN, Kredi Kartı, Telefon) LLM'e gitmeden önce `[TC_NO_1]`, `[KİŞİ_ADI_1]` gibi etiketlerle maskelenir. LLM'den cevap döndüğünde, proxy bu etiketleri anlık bellekteki orijinal verilerle tekrar değiştirir.
@@ -30,16 +28,16 @@ Yapay zeka modellerine giden veriyi maskeler, LLM'in maskeli cevaplarını yakal
 <img width="963" height="544" alt="image" src="https://github.com/user-attachments/assets/06b3fb5d-1822-4111-90fc-715fcd97d435" />
 
 ## 🛠️ Kullanılan Teknolojiler
-Backend: FastAPI, Python, Uvicorn
+* **Backend:** FastAPI, Python, Uvicorn
 
-Frontend: Streamlit
+* **Frontend:** Streamlit
 
-Veritabanı: MongoDB, Motor (Async)
+* **Veritabanı:**  MongoDB, Motor (Async)
 
-NLP & Maskeleme: Microsoft Presidio, Spacy, Regular Expressions (Regex)
+* **NLP & Maskeleme:**  Microsoft Presidio, Spacy, Regular Expressions (Regex)
 
-LLM Entegrasyonu: Google Gemini API, OpenAI API
+* **LLM Entegrasyonu:** Google Gemini API, OpenAI API
 
-Doküman İşleme: PyPDF2
+* **Doküman İşleme:** PyPDF2
 
-Geliştirici: Elif Nur Ayhan
+**Geliştirici:** Elif Nur Ayhan
